@@ -45,6 +45,10 @@ h2 {
     appearance: none;
 }
 
+.button :hover {
+    background-color: #04AA6D !important; 
+}
+
 .button-text {
     color: #ffffff;
     font-weight: bold;
