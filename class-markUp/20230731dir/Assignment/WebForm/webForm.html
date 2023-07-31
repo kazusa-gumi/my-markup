@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+    <link rel="stylesheet" href="./webForm.css">
+</head>
+
+<body>
+    <div class="title-text">Product enquiry form</div>
+    <br />
+    <form action="/action_page.php">
+        <label for="fullName">Full Name</label><br />
+        <input class="input-form" type="text" id="fullName" name="fullName"><br /><br />
+        <label for="email">Email</label><br />
+        <input class="input-form" type="email" id="email" name="email"><br /><br />
+        <label for="lname">product</label><br />
+        <select class="form" name="product" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="java">Java</option>
+            <option value="react">React</option>
+        </select><br /><br />
+        <label for="lname">Message</label><br />
+        <textarea class="input-form"></textarea>
+        
+        <input type="checkbox" id="lname" name="lname">
+        <p>Subscribe to our newsletter</p>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

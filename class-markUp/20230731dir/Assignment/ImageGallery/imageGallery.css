@@ -1,0 +1,26 @@
+body{
+  padding: 1rem;
+}
+
+.title-text{
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.border {
+  padding: 0.5em 1em;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  border: solid 1px #000000;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+}
+
+.gallery {
+  margin: 5px;
+}
